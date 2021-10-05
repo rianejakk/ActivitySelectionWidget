@@ -7,4 +7,4 @@
  Screenshot dari run app :
  ![image](https://github.com/rianejakk/ActivitySelectionWidget/blob/main/spinner.png)
  ![image](https://github.com/rianejakk/ActivitySelectionWidget/blob/main/autocomplete.png)
- 1[image](https://github.com/rianejakk/ActivitySelectionWidget/blob/main/filter.png)
+ ![image](https://github.com/rianejakk/ActivitySelectionWidget/blob/main/filter.png)
