@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_marginTop="0px"
+    android:layout_marginBottom="0px">
+
+    <AutoCompleteTextView
+        android:id="@+id/search_bar"
+        android:drawableStart="@drawable/search_icon"
+        android:layout_width="match_parent"
+        android:layout_height="21pt"
+        android:layout_marginRight="3pt"
+        android:layout_marginLeft="3pt"
+        android:layout_marginTop="5pt"
+        android:hint="Search..."
+        />
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/filter"
+        android:layout_width="match_parent"
+        android:layout_height="21pt"
+        android:layout_marginTop="3pt"
+        android:layout_marginLeft="3pt"
+        android:layout_marginRight="3pt"
+        />
+
+    <ListView
+        android:id="@+id/mod_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10pt"
+        />
+
+</LinearLayout>
